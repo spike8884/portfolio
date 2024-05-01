@@ -35,7 +35,7 @@
   --bs-gray-800: #343a40;
   --bs-gray-900: #212529;
   --bs-primary: #1e30f3;
-  --bs-secondary: #e21e80;
+  --bs-secondary: #00FF00;
   --bs-success: #198754;
   --bs-info: #0dcaf0;
   --bs-warning: #ffc107;
@@ -8190,7 +8190,7 @@ textarea.form-control-lg {
 
 .text-secondary {
   --bs-text-opacity: 1;
-  color: rgba(var(--bs-secondary-rgb), var(--bs-text-opacity)) !important;
+  color:gray !important;
 }
 
 .text-success {
@@ -11556,11 +11556,11 @@ html {
 
 .bg-gradient-primary-to-secondary {
   background: #1e30f3;
-  background: linear-gradient(135deg, red 0%, blue 70%);
+  background: linear-gradient(135deg, gray 0%, black 70%);
 }
 
 .text-gradient {
-  background: -webkit-linear-gradient(315deg, #1e30f3 0%, #e21e80 100%);
+  background: -webkit-linear-gradient(315deg, white 0%, gray 70%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -11602,7 +11602,7 @@ html {
   top: 4vw;
 }
 .profile .dots-1 svg {
-  fill: #fff;
+  fill: gray;
 }
 .profile .dots-2 {
   position: absolute;
@@ -11611,7 +11611,7 @@ html {
   top: 6.05vw;
 }
 .profile .dots-2 svg {
-  fill: #1e30f3;
+  fill: white;
 }
 .profile .dots-3 {
   position: absolute;
@@ -11620,7 +11620,7 @@ html {
   bottom: 6.05vw;
 }
 .profile .dots-3 svg {
-  fill: #fff;
+  fill: black;
 }
 .profile .dots-4 {
   position: absolute;
@@ -11629,7 +11629,7 @@ html {
   bottom: 4vw;
 }
 .profile .dots-4 svg {
-  fill: #1e30f3;
+  fill: white;
 }
 
 @media (min-width: 576px) {
@@ -11731,4 +11731,12 @@ html {
     width: 1.5vw;
     left: -2vw;
   }
+}
+
+#matrixlg{
+  background: url('../assets/matrix-lg.jpg');
+}
+
+.text-green{
+  color: green;
 }
