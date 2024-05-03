@@ -11733,8 +11733,9 @@ html {
   }
 }
 
-#matrixlg{
-  background: url('../assets/matrix-lg.jpg');
+.matrixlg{
+  background: url('../assets/matrix-lg.jpg') no-repeat;
+  
 }
 
 .text-green{
